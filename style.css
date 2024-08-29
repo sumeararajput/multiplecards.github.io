@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+body{
+ background-image: linear-gradient(rgba(0, 255, 255, 0.123) , rgba(0, 255, 255, 0.123));
+
+}
+/* .container{
+   
+} */
+.multiplecards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 280px;
+    height: 430px;
+    border: 1px solid rgba(0, 0, 0, 0.473);
+    box-shadow: transparent;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+   transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.sec1{
+    width: 280px;
+    height: 40%;
+    background-image: url(https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+.sec2{
+    height: 60%;
+    padding: 10px 10px;
+}
+h2{
+   font-size: 25px;
+   margin-top: 10px;
+}
+p{
+   margin-top: 10px;
+}
+h3{
+    margin-top: 10px;
+}
+.button{
+ margin-top: 10px;
+}
+.buybtn{
+    border: none;
+    background-color: rgba(0, 255, 255, 0.822);
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+.buybtn:hover{
+    background-color: aqua;
+    cursor: pointer;
+    color: black;
+}
+.addbtn{
+    border: none;
+    background-color: rgba(255, 99, 71, 0.897);
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+.addbtn:hover{
+    background-color: tomato;
+    cursor: pointer;
+    color: black;
+}
